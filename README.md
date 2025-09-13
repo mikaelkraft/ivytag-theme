@@ -3,7 +3,13 @@
 
 # GETTING STARTED
 
-## This is a simple plug and play theme
+## This is a simple plug and play theme.
+
+# Run below code in your terminal
+
+`ext install MikaelKraft.ivytag-theme`
+
+# OR
 
 * Go to extension section of your VScode, use the search bar and type `ivytag theme`. The first three letters will pop it up within a list
 * The install will add ivytag theme to your Vscode software
