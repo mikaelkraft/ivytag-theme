@@ -1,4 +1,4 @@
-MIT License
+MIT License and use case
 
 Copyright (c) 2023-2025 Michael Kraft
 
