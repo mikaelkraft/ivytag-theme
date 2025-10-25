@@ -9,7 +9,7 @@ Thank you for your interest in contributing to Ivytag Theme! This document provi
 If you encounter any bugs or have suggestions for improvements:
 
 1. Check if the issue already exists in the [issue tracker](https://github.com/mikaelkraft/ivytag-theme/issues)
-2. If not, create a new issue with a clear title and description
+2. If not, create a new issue with a clear title and description of the problem.
 3. Include screenshots if applicable
 4. Describe the steps to reproduce the issue
 
