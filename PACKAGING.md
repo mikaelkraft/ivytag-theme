@@ -1,4 +1,4 @@
-# Packaging and Publishing Guide for Ivytag Theme
+# Packaging and Publishing Guide for Ivytag Theme by Mikael Kraft
 
 ## Package Created ✅
 
