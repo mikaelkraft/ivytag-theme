@@ -1,5 +1,5 @@
 # ivytag-theme
-![1674276681574](images/coding.png)
+
 
 # GETTING STARTED
 
