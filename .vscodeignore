@@ -1,4 +1,31 @@
+# Development files
 .vscode/**
 .vscode-test/**
 .gitignore
+.gitattributes
+.editorconfig
+
+# Documentation for development
 vsc-extension-quickstart.md
+CONTRIBUTING.md
+
+# Git files
+.git/**
+
+# Build artifacts
+*.vsix
+
+# Node modules (if any)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Editor files
+*.swp
+*.swo
+*~
