@@ -5,6 +5,8 @@
 [![Rating](https://img.shields.io/visual-studio-marketplace/r/MikaelKraft.ivytag-theme?style=flat-square&label=Rating)](https://marketplace.visualstudio.com/items?itemName=MikaelKraft.ivytag-theme)
 [![License](https://img.shields.io/github/license/mikaelkraft/ivytag-theme?style=flat-square)](LICENSE.txt)
 
+# Meet my Awesome theme!
+
 A well-crafted dark theme with vibrant touches of dark greens and blues for an immersive coding experience.
 
 ## Features
