@@ -1,48 +1,98 @@
-# ivytag-theme
+# Ivytag Theme
 
+[![Version](https://img.shields.io/visual-studio-marketplace/v/MikaelKraft.ivytag-theme?style=flat-square&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=MikaelKraft.ivytag-theme)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/MikaelKraft.ivytag-theme?style=flat-square&label=Downloads)](https://marketplace.visualstudio.com/items?itemName=MikaelKraft.ivytag-theme)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/MikaelKraft.ivytag-theme?style=flat-square&label=Rating)](https://marketplace.visualstudio.com/items?itemName=MikaelKraft.ivytag-theme)
+[![License](https://img.shields.io/github/license/mikaelkraft/ivytag-theme?style=flat-square)](LICENSE.txt)
 
-# GETTING STARTED
+A well-crafted dark theme with vibrant touches of dark greens and blues for an immersive coding experience.
 
-## This is a simple plug and play theme.
+## Features
 
-# Run below code in your terminal
+- 🌲 **Dark Theme** - Easy on the eyes with deep, rich colors
+- 💚 **Green & Blue Accents** - Vibrant color scheme that makes code pop
+- 🎨 **Comprehensive Syntax Support** - Carefully crafted colors for multiple languages including:
+  - JavaScript/TypeScript
+  - Python
+  - Java
+  - C/C++
+  - PHP
+  - Go
+  - Rust
+  - CSS/SCSS/LESS
+  - HTML
+  - Markdown
+  - And many more...
+- ✨ **Semantic Highlighting** - Enhanced code understanding with semantic token colors
+- 🔧 **Complete UI Theming** - Consistent dark theme across the entire VS Code interface
 
-`ext install MikaelKraft.ivytag-theme`
+## Installation
 
-# OR
+### Via VS Code Marketplace
 
-* Go to extension section of your VScode, use the search bar and type `ivytag theme`. The first three letters will pop it up within a list
-* The install will add ivytag theme to your Vscode software
-* After install, Vscode will update it's color, simply click on `SET COLOR THEME`
+1. Open **Extensions** sidebar in VS Code (`Ctrl+Shift+X` or `Cmd+Shift+X` on Mac)
+2. Search for `ivytag theme`
+3. Click **Install**
+4. Click **Reload** to reload your editor
+5. Go to `File > Preferences > Color Theme > Ivytag color theme`
 
-## Get up and running straight away on Customizations
+### Via Command Line
 
-* Press `F5` to open a new window with your extension loaded.
-* Open `File > Preferences > Color Themes` and pick your color theme.
-* Open a file that has a language associated. The languages' configured grammar will tokenize the text and assign 'scopes' to the tokens. To examine these scopes, invoke the `Developer: Inspect Editor Tokens and Scopes` command from the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac).
+```bash
+ext install MikaelKraft.ivytag-theme
+```
 
-## Make changes
+### Manual Installation
 
-* Changes to the theme file are automatically applied to the Extension Development Host window.
+1. Copy the extension folder to your VS Code extensions directory:
+   - **Windows**: `%USERPROFILE%\.vscode\extensions`
+   - **macOS/Linux**: `~/.vscode/extensions`
+2. Restart VS Code
+3. Go to `File > Preferences > Color Theme > Ivytag color theme`
 
-## Adopt your theme to Visual Studio Code
+## Customization
 
-* The token colorization is done based on standard TextMate themes. Colors are matched against one or more scopes.
+You can customize the theme colors by adding settings to your `settings.json`:
 
-To learn more about scopes and how they're used, check out the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation.
+```json
+{
+  "workbench.colorCustomizations": {
+    "[Ivytag color theme]": {
+      "editor.background": "#000000",
+      "editor.foreground": "#ffffff"
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "[Ivytag color theme]": {
+      "comments": "#55565a"
+    }
+  }
+}
+```
 
-## Install your extension
+### Development
 
-* To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
-* To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
+To customize and test the theme locally:
+
+1. Press `F5` to open a new window with your extension loaded
+2. Open `File > Preferences > Color Themes` and pick your color theme
+3. Make changes to the theme file - changes are automatically applied to the Extension Development Host window
+4. To examine token scopes, use `Developer: Inspect Editor Tokens and Scopes` command (`Ctrl+Shift+P` or `Cmd+Shift+P`)
+
+For more information on theme development, check out the [VS Code Color Theme Guide](https://code.visualstudio.com/api/extension-guides/color-theme).
+
+## Contributing
+
+Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+## License
+
+[MIT License](LICENSE.txt) - Copyright (c) 2023-2025 Michael Kraft
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a list of changes.
 
 ---
 
-## Building And Publishing Your Own
-
-if you want to build and publish your own extension, please refer to this Doc.
-
-[Building and publishing Vscode extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#packaging-extensions "visit to learn")
-#� �i�v�y�t�a�g�-�t�h�e�m�e�
-�
-�
+**Enjoy coding with Ivytag Theme!** 🌲✨

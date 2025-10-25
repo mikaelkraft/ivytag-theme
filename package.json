@@ -3,12 +3,27 @@
   "displayName": "Ivytag Theme",
   "publisher": "MikaelKraft",
   "description": "Well crafted dark theme with some touch of dark greens and blues you will love for a vibrant coding experience",
-  "version": "0.2.0",
+  "version": "0.3.0",
+  "author": {
+    "name": "Michael Kraft",
+    "url": "https://github.com/mikaelkraft"
+  },
+  "license": "MIT",
   "engines": {
-    "vscode": "^1.74.0"
+    "vscode": "^1.85.0"
   },
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "color theme",
+    "green",
+    "blue",
+    "ivytag",
+    "dark",
+    "vibrant"
   ],
   "contributes": {
     "themes": [
@@ -23,12 +38,13 @@
     "type": "git",
     "url": "https://github.com/mikaelkraft/ivytag-theme.git"
   },
+  "bugs": {
+    "url": "https://github.com/mikaelkraft/ivytag-theme/issues"
+  },
+  "homepage": "https://github.com/mikaelkraft/ivytag-theme#readme",
   "icon": "images/icon.png",
   "galleryBanner": {
     "color": "forestgreen",
     "theme": "dark"
-  },
-  "dependencies": {
-    "node": "^19.4.0"
   }
 }
