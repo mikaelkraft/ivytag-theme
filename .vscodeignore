@@ -1,4 +1,4 @@
-# Development files
+# Development files for this theme
 .vscode/**
 .vscode-test/**
 .gitignore
