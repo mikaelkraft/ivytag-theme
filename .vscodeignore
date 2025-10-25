@@ -8,6 +8,7 @@
 # Documentation for development
 vsc-extension-quickstart.md
 CONTRIBUTING.md
+PACKAGING.md
 
 # Git files
 .git/**
