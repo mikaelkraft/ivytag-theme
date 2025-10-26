@@ -89,7 +89,7 @@ Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for det
 
 ## License
 
-[MIT License](LICENSE.txt) - Copyright © 2023-2025 Michael Kraft
+[MIT License](LICENSE.txt) - Copyright © 2023-2025 [Michael Kraft](https://github.com/mikaelkraft)
 
 ## Changelog
 
