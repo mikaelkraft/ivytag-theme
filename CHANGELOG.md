@@ -6,9 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [0.6.0] - 2025-10-25
+
+### Changed
+- Badge color background color scheme from Auburn to light army green
 - Latest improvements 
 
 ## [0.5.0] - 2025-9-25
+
+### Updated
 - bumped version for logo update
 - marketplace last version
 
