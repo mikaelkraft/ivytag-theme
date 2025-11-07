@@ -23,7 +23,8 @@
     "blue",
     "ivytag",
     "dark",
-    "vibrant"
+    "vibrant",
+    "ivy"
   ],
   "contributes": {
     "themes": [
