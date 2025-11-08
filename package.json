@@ -47,5 +47,8 @@
   "galleryBanner": {
     "color": "forestgreen",
     "theme": "dark"
+  },
+  "dependencies": {
+    "@vscode/vsce": "^3.7.0"
   }
 }
