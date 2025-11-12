@@ -7,6 +7,11 @@
 
 # Meet my Awesome theme!
 
+## Available on:
+- Vscode Marketplace
+- Google Shell Cloud CLI
+- Eclipse IDE
+- 
 A well-crafted dark theme with vibrant touches of dark greens and blues for an immersive coding experience.
 
 ## Features
