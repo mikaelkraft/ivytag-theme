@@ -14,7 +14,7 @@ PACKAGING.md
 .git/**
 
 # Build artifacts
-*.vsix
+
 
 # Node modules (if any)
 node_modules/
