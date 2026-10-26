@@ -20,6 +20,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `npm run package` script leveraging `@vscode/vsce`
 
 ### Changed
+- **Green as the Living Soul**:
+  - Re-anchored the syntax token color system around the rich green spectrum: replaced magenta keywords with vibrant ivy emerald (`#2ee59d`), pink types/parameters with fresh seafoam jade (`#5eead4`), dull strings with spring leafy green (`#86efac`), and neutral gray comments with peaceful dark moss forest green (`#4d7c5f`). Over 52% of the syntax tree directly radiates through organic shades of green.
+  - Added Antigravity platform support documentation.
 - **State Colors & Contrast**:
   - Re-engineered focus, selection, and hover states with cohesive ivy emerald (`#38ef7d`, `#00b894`) and deep spruce (`#0d3a35`)
   - Transformed editor line numbers from harsh neon lime (`#bbff00`) to calm moss green (`#3a614d`), with active line number highlighted in vibrant emerald (`#38ef7d`)

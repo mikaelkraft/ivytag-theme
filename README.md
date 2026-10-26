@@ -7,19 +7,20 @@
 
 # Meet my Awesome theme!
 
-A well-crafted dark theme with rich dark greens and vibrant blue accents for an immersive, distraction-free coding experience.
+A well-crafted dark theme where green is the living soul — harmonizing deep forest greens, vibrant ivy emeralds, and fresh seafoam jade with complementary touches of oceanic blue for an immersive coding experience.
 
 ## Available on:
+- Antigravity
 - VS Code Marketplace
 - Google Cloud Shell CLI
 - Eclipse IDE
 
 ## Features
 
-- 🌲 **Deep Dark Palette** - Pure black editor canvas paired with deep spruce and slate-teal surfaces for zero eye strain
-- 💚 **Vibrant Ivy & Blue Accents** - Electric emerald (`#38ef7d`), cyan (`#79fff9`), and sky blue (`#38bdf8`) accents make code and UI state pop
+- 🌲 **Green as the Soul** - From deep moss comments (`#4d7c5f`) and spruce surfaces to vibrant ivy keywords (`#2ee59d`), electric emerald variables (`#1bf908`), and seafoam types (`#5eead4`), green defines every layer of the palette
+- 💚 **Vibrant Ivy & Blue Accents** - Electric emerald (`#38ef7d`), cyan (`#79fff9`), and sky blue (`#6686d1`) accents make code and UI state pop
 - 🌿 **Harmonized State Colors** - Thoughtfully tuned focus borders, selection backgrounds, and interactive hover states across the entire workbench
-- 👁 **Ergonomic Line Numbers** - Calm moss green (`#3a614d`) inactive line numbers with an unmistakable vibrant active line indicator
+- 👁 **Ergonomic Line Numbers** - Calm moss green (`#335c44`) inactive line numbers with an unmistakable vibrant active line indicator (`#38ef7d`)
 - 🎯 **Crystal-Clear Diagnostics** - Cohesive coral red errors, amber warnings, sky-blue info markers, and mint hints
 - 🔍 **Modern VS Code UI Support** - Dedicated styling for Command Center, Sticky Scroll, Inlay Hints, and Peek View
 - 🎨 **Comprehensive Syntax & Semantic Highlighting** - High-contrast coverage for:
