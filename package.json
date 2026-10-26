@@ -2,8 +2,8 @@
   "name": "ivytag-theme",
   "displayName": "Ivytag Theme",
   "publisher": "MikaelKraft",
-  "description": "A Well crafted dark theme with some touch of dark greens and blues you will love for a vibrant coding experience",
-  "version": "0.6.0",
+  "description": "A well-crafted dark theme with rich dark greens and vibrant blue accents for an immersive coding experience.",
+  "version": "0.7.0",
   "author": {
     "name": "Michael Kraft",
     "url": "https://github.com/mikaelkraft"
@@ -22,9 +22,11 @@
     "green",
     "blue",
     "ivytag",
+    "ivy",
     "dark",
     "vibrant",
-    "ivy"
+    "forest",
+    "emerald"
   ],
   "contributes": {
     "themes": [
@@ -34,6 +36,14 @@
         "path": "./themes/Ivytag-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "package": "vsce package --no-git-tag-version",
+    "test": "npm run validate"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^4.0.0"
   },
   "repository": {
     "type": "git",
@@ -45,10 +55,7 @@
   "homepage": "https://github.com/mikaelkraft/ivytag-theme#readme",
   "icon": "images/icon.png",
   "galleryBanner": {
-    "color": "forestgreen",
+    "color": "#05241b",
     "theme": "dark"
-  },
-  "dependencies": {
-    "@vscode/vsce": "^3.7.0"
   }
 }

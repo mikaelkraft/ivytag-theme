@@ -1,0 +1,41 @@
+# Development files for this theme
+.vscode/**
+.vscode-test/**
+.gitignore
+.gitattributes
+.editorconfig
+.npmrc
+
+# Documentation for development
+vsc-extension-quickstart.md
+CONTRIBUTING.md
+PACKAGING.md
+
+# Scripts & Tooling
+scripts/**
+
+# Git files
+.git/**
+images/git.keep
+images/*.keep
+images/icon-original.png
+
+# Build artifacts
+*.vsix
+package-lock.json
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Editor & backup files
+*.swp
+*.swo
+*~
+*.bak*

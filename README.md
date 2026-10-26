@@ -7,66 +7,64 @@
 
 # Meet my Awesome theme!
 
+A well-crafted dark theme with rich dark greens and vibrant blue accents for an immersive, distraction-free coding experience.
+
 ## Available on:
-- Vscode Marketplace
-- Google Shell Cloud CLI
+- VS Code Marketplace
+- Google Cloud Shell CLI
 - Eclipse IDE
-- 
-A well-crafted dark theme with vibrant touches of dark greens and blues for an immersive coding experience.
 
 ## Features
 
-- 🌲 **Dark Theme** - Easy on the eyes with deep, rich colors
-- 💚 **Green & Blue Accents** - Vibrant color scheme that makes code pop
-- 🎨 **Comprehensive Syntax Support** - Carefully crafted colors for multiple languages including:
-  - JavaScript/TypeScript
+- 🌲 **Deep Dark Palette** - Pure black editor canvas paired with deep spruce and slate-teal surfaces for zero eye strain
+- 💚 **Vibrant Ivy & Blue Accents** - Electric emerald (`#38ef7d`), cyan (`#79fff9`), and sky blue (`#38bdf8`) accents make code and UI state pop
+- 🌿 **Harmonized State Colors** - Thoughtfully tuned focus borders, selection backgrounds, and interactive hover states across the entire workbench
+- 👁 **Ergonomic Line Numbers** - Calm moss green (`#3a614d`) inactive line numbers with an unmistakable vibrant active line indicator
+- 🎯 **Crystal-Clear Diagnostics** - Cohesive coral red errors, amber warnings, sky-blue info markers, and mint hints
+- 🔍 **Modern VS Code UI Support** - Dedicated styling for Command Center, Sticky Scroll, Inlay Hints, and Peek View
+- 🎨 **Comprehensive Syntax & Semantic Highlighting** - High-contrast coverage for:
+  - TypeScript / JavaScript
   - Python
-  - Java
-  - C/C++
-  - PHP
-  - Go
-  - Rust
-  - CSS/SCSS/LESS
-  - HTML
-  - Markdown
-  - And many more...
-- ✨ **Semantic Highlighting** - Enhanced code understanding with semantic token colors
-- 🔧 **Complete UI Theming** - Consistent dark theme across the entire VS Code interface
+  - Rust & Go
+  - C / C++ / C#
+  - Java / Kotlin
+  - HTML, CSS / SCSS
+  - Markdown, JSON, YAML
+- ⚡ **Lean & Fast** - High-DPI icon optimized to 41 KB with sub-second theme loading and clean packaging
 
 ## Installation
 
 ### Via VS Code Marketplace
 
-1. Open **Extensions** sidebar in VS Code (`Ctrl+Shift+X` or `Cmd+Shift+X` on Mac)
+1. Open **Extensions** sidebar in VS Code (`Ctrl+Shift+X` or `Cmd+Shift+X` on macOS)
 2. Search for `ivytag theme`
 3. Click **Install**
-4. Click **Reload** to reload your editor
-5. Go to `File > Preferences > Color Theme > Ivytag color theme`
+4. Set theme: `File > Preferences > Color Theme > Ivytag color theme` (or `Cmd+K Cmd+T`)
 
 ### Via Command Line
 
 ```bash
-ext install MikaelKraft.ivytag-theme
+code --install-extension MikaelKraft.ivytag-theme
 ```
 
-### Manual Installation
+### Manual Installation (.vsix)
 
-1. Copy the extension folder to your VS Code extensions directory:
-   - **Windows**: `%USERPROFILE%\.vscode\extensions`
-   - **macOS/Linux**: `~/.vscode/extensions`
-2. Restart VS Code
-3. Go to `File > Preferences > Color Theme > Ivytag color theme`
+1. Download or package `ivytag-theme-0.7.0.vsix`
+2. Run:
+```bash
+code --install-extension ivytag-theme-0.7.0.vsix
+```
 
 ## Customization
 
-You can customize the theme colors by adding settings to your `settings.json`:
+You can fine-tune any theme color in your personal `settings.json`:
 
 ```json
 {
   "workbench.colorCustomizations": {
     "[Ivytag color theme]": {
       "editor.background": "#000000",
-      "editor.foreground": "#ffffff"
+      "statusBar.background": "#031e17"
     }
   },
   "editor.tokenColorCustomizations": {
@@ -77,28 +75,34 @@ You can customize the theme colors by adding settings to your `settings.json`:
 }
 ```
 
-### Development
+### Development & Testing
 
-To customize and test the theme locally:
-
-1. Press `F5` to open a new window with your extension loaded
-2. Open `File > Preferences > Color Themes` and pick your color theme
-3. Make changes to the theme file - changes are automatically applied to the Extension Development Host window
-4. To examine token scopes, use `Developer: Inspect Editor Tokens and Scopes` command (`Ctrl+Shift+P` or `Cmd+Shift+P`)
-
-For more information on theme development, check out the [VS Code Color Theme Guide](https://code.visualstudio.com/api/extension-guides/color-theme).
+1. Clone repository:
+```bash
+git clone https://github.com/mikaelkraft/ivytag-theme.git
+cd ivytag-theme
+```
+2. Validate theme integrity:
+```bash
+npm test
+```
+3. Press `F5` in VS Code to launch an Extension Development Host window.
+4. Package the VSIX:
+```bash
+npm run package
+```
 
 ## Contributing
 
-Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+Contributions and feedback are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ## License
 
-[MIT License](LICENSE.txt) - Copyright © 2023-2025 [Michael Kraft](https://github.com/mikaelkraft)
+[MIT License](LICENSE.txt) - Copyright © 2023-2026 [Michael Kraft](https://github.com/mikaelkraft)
 
 ## Changelog
 
-See [CHANGELOG.md](CHANGELOG.md) for a list of changes.
+See [CHANGELOG.md](CHANGELOG.md) for full version history.
 
 ---
 
