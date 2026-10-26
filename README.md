@@ -1,8 +1,5 @@
 # Ivytag Theme
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/MikaelKraft.ivytag-theme?style=flat-square&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=MikaelKraft.ivytag-theme)
-[![Downloads](https://img.shields.io/visual-studio-marketplace/d/MikaelKraft.ivytag-theme?style=flat-square&label=Downloads)](https://marketplace.visualstudio.com/items?itemName=MikaelKraft.ivytag-theme)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/MikaelKraft.ivytag-theme?style=flat-square&label=Rating)](https://marketplace.visualstudio.com/items?itemName=MikaelKraft.ivytag-theme)
 [![License](https://img.shields.io/github/license/mikaelkraft/ivytag-theme?style=flat-square)](LICENSE.txt)
 
 # Meet my Awesome theme!
